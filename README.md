@@ -8,13 +8,13 @@ Código para extração de todo o histórico de pedidos realizados no iFood. O r
 
 Para executar a extração de dados do iFood, execute o comando
 
-`python ifood_extractor.py --email EMAIL`
+`python main.py --email EMAIL`
 
 Substituindo EMAIL pelo seu e-mail de login no iFood.
 
 Caso deseje realizar a autenticação utilizando o seu celular, utilize o comando (note que é necessário informar o e-mail mesmo assim):
 
-`python ifood_extractor.py --email EMAIL --phone CELULAR`
+`python main.py --email EMAIL --phone CELULAR`
 
 Em seguida, você deverá informar o código de autenticação que receberá via e-mail ou SMS. Essa etapa é necessário pois o iFood utiliza autenticação de 2 fatores.
 
